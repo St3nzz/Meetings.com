@@ -1,0 +1,12 @@
+/*      NAV     */
+
+.main__nav{
+    padding: 20px 25px;
+}
+.main__nav_item{
+    margin-top: 20px;
+}
+.active{
+    font-weight: 700;
+    font-size: 20px;
+}
