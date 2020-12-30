@@ -1,35 +1,22 @@
 /*    PROFILE     */
 
-.main__profile{
+.profile{
     width: 100%;
     background-color: white;
 }
-.main__profile img{
+.profile img{
     width: 100%;
     height: 180px;
     object-fit: cover;
 }
-.main__profile_info{
+.profile__info{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 20px;
 }
-.main__profile_photo img{
+.profile__photo img{
     width: 150px;
     height: 150px;
     object-fit: cover;
-}
-
-/*     POSTS      */
-
-.main__profile_posts{
-    margin: 20px;
-}
-.main__profile_posts_post{
-    margin-top: 20px;
-    border: 1px solid #F1F3FF;
-    border-radius: 20px;
-    padding: 0 20px;
-    background-color: #F1F3FF;
 }

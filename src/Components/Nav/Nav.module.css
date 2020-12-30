@@ -1,9 +1,9 @@
 /*      NAV     */
 
-.main__nav{
+.nav{
     padding: 20px 25px;
 }
-.main__nav_item{
+.nav__item{
     margin-top: 20px;
 }
 .active{

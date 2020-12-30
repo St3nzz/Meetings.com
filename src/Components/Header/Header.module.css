@@ -6,13 +6,13 @@
 
 .header{
     background-color: #1877F2;
-    height: 10vh;
-}
-.header img{
     height: 8vh;
 }
+.header img{
+    height: 6vh;
+}
 .header__wrapper{
-    height: 10vh;
+    height: 8vh;
     width: 55%;
     margin: 0 auto;
     display: flex;
@@ -21,5 +21,5 @@
 }
 .header p{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
 }

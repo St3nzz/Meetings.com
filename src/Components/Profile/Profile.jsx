@@ -1,31 +1,23 @@
+import React from "react";
 import style from "./Profile.module.css";
 import profile_bg from "../../images/profile_bg.jpg";
 import profile_photo from "../../images/profile_photo.jpg";
+import Posts from "./Posts/Posts";
 
 const Profile = () => (
-    <div className={style.main__profile}>
+    <div className={style.profile}>
         <img src={profile_bg} alt=""/>
-        <div className={style.main__profile_info}>
-            <div className={style.main__profile_photo}>
+        <div className={style.profile__info}>
+            <div className={style.profile__photo}>
                 <img src={profile_photo} alt=""/>
             </div>
-            <div className={style.main__profile_pass}>
-                <div className="main-profile-pass-name">Name: Nikita St3n</div>
-                <div className="main-profile-pass-age">Age: 17</div>
-                <div className="main-profile-pass-hobby">Hobby: Programming</div>
+            <div className={style.profile__pass}>
+                <div className="profile__pass_name">Name: Nikita St3n</div>
+                <div className="profile__pass_age">Age: 17</div>
+                <div className="profile__pass_hobby">Hobby: Programming</div>
             </div>
         </div>
-        <div className={style.main__profile_posts}>
-            <h2>The posts</h2>
-            <div className={style.main__profile_posts_post}>
-                <h3>Post #1</h3>
-                <p>I want to build my own empire</p>
-            </div>
-            <div className={style.main__profile_posts_post}>
-                <h3>Post #2</h3>
-                <p>This is the beginning of something bigger</p>
-            </div>
-        </div>
+        <Posts />
     </div>
 );
 
