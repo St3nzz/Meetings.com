@@ -6,7 +6,7 @@ const Posts = () =>(
     <div className={style.posts}>
         <h2>The posts</h2>
         <div className={style.posts__send}>
-            <textarea name="new_post" id="" cols="30" rows="10" placeholder="Enter a new post"></textarea>
+            <textarea name="new_post" id="" cols="30" rows="10" placeholder="Enter a new post..."></textarea>
             <button>Send</button>
         </div>
         <Post index='1' like_count='12' name='Andrey ' second_name='Kuznetsov' message='I want to build my own empire' />
