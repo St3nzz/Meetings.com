@@ -1,6 +1,8 @@
 /*      NAV     */
 
 .nav{
+    width: 200px;
+    background-color: #F2F0FC;
     padding: 20px 25px;
 }
 .nav__item{
@@ -8,5 +10,5 @@
 }
 .active{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
 }

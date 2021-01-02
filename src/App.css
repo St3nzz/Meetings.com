@@ -2,8 +2,12 @@ a{
   text-decoration: none;
   color: black;
 }
+a:hover{
+  color: #1877F2;
+}
 html{
   background-color: #F5F3FF;
+  font-size: 18px;
 }
 .container {
   width: 60%;
